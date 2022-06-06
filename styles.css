@@ -1,0 +1,71 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body {
+    background-color: #EEE;
+}
+
+#line {
+    border-bottom: solid 1px #474747;
+    width: 65px;
+}
+
+#inStockList ul {
+    display: flex;
+    flex-flow: wrap;
+    background-color: #fff;
+    width: 1300px;
+    margin: 13px auto;
+}
+
+.wrappers {
+    width: 1300px;
+    margin: 0px auto;
+}
+
+li {
+    text-decoration: none;
+    display: inline;
+    width: 30%;
+
+}
+
+#toggleButton, li {
+    padding: 15px;
+}
+
+#toggleButton, #inStockList ul, #line {
+    box-shadow: 2px 2px 5px #C6C6C6;
+    border-radius: 5px;
+}
+
+#toggleButton {
+    width: 162px;
+    margin: 13px 0;
+    border: solid 1px #888;
+}
+
+
+/***** DARK MODE *****/
+
+.darkMode {
+    background-color: #2B2B2B;
+    color: #fff;
+}
+
+.darkMode #line {
+    border-bottom: solid 1px #fff;
+}
+
+.darkMode #inStockList ul {
+    background-color: #424242;
+}
